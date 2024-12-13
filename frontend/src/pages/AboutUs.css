@@ -1,0 +1,102 @@
+/* Base styling for the About Us section */
+.about-us {
+    padding: 50px;
+    background-color: #f3f4f6; /* Light gray background */
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Section Headings */
+  .about-us h2 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  /* Vision & Mission Section */
+  .vision, .mission {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Soft shadow */
+    margin: 0 auto 40px;
+    max-width: 700px;
+    text-align: center;
+  }
+  
+  .vision p, .mission p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Team Section */
+  .team {
+    text-align: center;
+  }
+  
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  /* Team Member Card */
+  .team-member {
+    background-color: #b5cbb2;
+    border-radius: 15px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12); /* Soft shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18); /* Enhanced shadow on hover */
+  }
+  
+  /* Team Member Photo */
+  .team-member-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 1px solid #00ADB5; /* Modern accent color */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Team Member Info */
+  .team-member-info h3 {
+    font-size: 1.3rem;
+    color: #1e1d1d;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  
+  .team-member-info p {
+    font-size: 0.95rem;
+    color: #141212;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .team-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .vision, .mission {
+      padding: 20px;
+      margin: 20px 0;
+    }
+  }
+  

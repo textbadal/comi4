@@ -1,0 +1,118 @@
+/* src/pages/ContactUs.css */
+
+.contact-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    color: #555;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info {
+    margin-bottom: 40px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .contact-item span {
+    margin-left: 10px;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .contact-item a {
+    color: #4CAF50;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .contact-item a:hover {
+    color: #45a049;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  .contact-form button {
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .social-media {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .social-media p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .social-icons a {
+    margin: 0 15px;
+    color: #555;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #4CAF50;
+  }
+  
+  .social-icons a svg {
+    vertical-align: middle;
+  }
+  
